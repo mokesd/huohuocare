@@ -9,19 +9,19 @@
         },
         "AUUID": {
             "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "2c835310-dddd-4b3d-8e9b-7841c897d070"
+            "value": "77b37bea-22c9-4662-8d82-9ea5d056cba6"
         },
         "CADDYIndexPage": {
             "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/ddd/ao/blob/master/etc/CADDYIndexPage.md",
-            "value": "https://github.com/vvv1/saide/raw/main/3D.zip"
+            "value": "https://github.com/mokesd/remberme/3D.zip"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/ddd/ao/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/mokesd/huohuocare/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/ddd/ao/master/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/mokesd/huohuocare/etc/xray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -29,10 +29,10 @@
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://raw.githubusercontent.com/ddd/ao/master/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/mokesd/huohuocare/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/ddd/ao",
-    "repository": "https://github.com/ddd/ao",
+    "website": "https://github.com/mokesd/huohuocare",
+    "repository": "https://github.com/mokesd/huohuocare",
     "stack": "container"
 }
