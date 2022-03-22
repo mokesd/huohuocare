@@ -2,7 +2,7 @@
 
 # configs
 AUUID=2c835310-dddd-4b3d-8e9b-7841c897d070
-CADDYIndexPage=https://github.com/vvv1/saide/raw/main/3D.zip
+CADDYIndexPage=https://github.com/mokesd/remberme/3D.zip
 CONFIGCADDY=https://raw.githubusercontent.com/ddd/ao/master/etc/Caddyfile
 CONFIGXRAY=https://raw.githubusercontent.com/ddd/ao/master/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
