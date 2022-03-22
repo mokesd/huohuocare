@@ -1,12 +1,12 @@
 #!/bin/sh
 
 # configs
-AUUID=2c835310-dddd-4b3d-8e9b-7841c897d070
+AUUID=77b37bea-22c9-4662-8d82-9ea5d056cba6
 CADDYIndexPage=https://github.com/mokesd/remberme/3D.zip
-CONFIGCADDY=https://raw.githubusercontent.com/ddd/ao/master/etc/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/ddd/ao/master/etc/xray.json
+CONFIGCADDY=https://raw.githubusercontent.com/mokesd/remberme/etc/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/mokesd/remberme/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
-StoreFiles=https://raw.githubusercontent.com/ddd/ao/master/etc/StoreFiles
+StoreFiles=https://raw.githubusercontent.com/mokesd/remberme/etc/StoreFiles
 #PORT=4433
 mkdir -p /etc/caddy/ /usr/share/caddy && echo -e "User-agent: *\nDisallow: /" >/usr/share/caddy/robots.txt
 wget $CADDYIndexPage -O /usr/share/caddy/index.html && unzip -qo /usr/share/caddy/index.html -d /usr/share/caddy/ && mv /usr/share/caddy/*/* /usr/share/caddy/
